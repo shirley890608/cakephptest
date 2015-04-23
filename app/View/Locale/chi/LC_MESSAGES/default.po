@@ -1,0 +1,34 @@
+# 通用字段
+msgid    "ADMINMANAGE"
+msgstr    "管理首页"
+
+msgid    "@Rights"
+msgstr    "版权所有©海之润咖啡 2002-2015"
+
+msgid   "BOOKS Lists"
+msgstr  "书籍列表"
+
+msgid   "BOOKS Add"
+msgstr  "添加新书籍"
+
+msgid   "BOOKS Edit"
+msgstr  "编辑书籍"
+
+msgid   "MESSAGES Lists"
+msgstr  "消息列表"
+
+msgid   "MESSAGES Add"
+msgstr  "添加新消息"
+
+msgid   "MESSAGES Edit"
+msgstr  "编辑消息"
+
+#后台字段
+msgid   "ADMIN Manager"
+msgstr  "海之润咖啡后台管理系统"
+
+msgid   "Please input username"
+msgstr  "请输入用户名"
+
+msgid   "Please input userpwd"
+msgstr  "请输入密码"
