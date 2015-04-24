@@ -1,0 +1,197 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"con",
+				"condition"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 272.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package→删除程序包"
+			]
+		],
+		"width": 632.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/httproot/cakephp/app/Config/database.php",
+		"/C/Users/hi/Desktop/project/teacher.html",
+		"/C/Users/hi/Desktop/project/css/teacher.css",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/teacher.html",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/notice.html",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/css/teacher.css",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/js/custominput.js",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/login-1.html",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/css/radio.css",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/css/public.css",
+		"/C/Users/hi/Downloads/表单美化案例/复选框/checkbox.html",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/makeup-exam.html",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/test3.html",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/test2.html",
+		"/F/BaiduYunDownload/班级网站需求/班级网站需求/project/project/checkbox.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"custom-checkbox",
+			"head-menu",
+			"tb-top",
+			"menu-quit",
+			"head-menu",
+			"head-img",
+			"left-menudiv",
+			"left-menu",
+			"choose-num",
+			"table-title",
+			"class-choose",
+			"list-top",
+			"class-select",
+			"search-select",
+			"btnsearch",
+			"costom-checkbox"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "ckp.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

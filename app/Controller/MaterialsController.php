@@ -3,11 +3,11 @@
 App::uses('AppController', 'Controller');
 header("Content-type:text/html;charset=utf-8");
 
-class ShopsController extends AppController
+class MaterialsController extends AppController
 {
 
     //表名
-    var $name = 'Shops';
+    var $name = 'Materials';
     //设置每页多少条数据
     public $paginate = array('limit' => 10);
     //公共方法
@@ -22,20 +22,20 @@ class ShopsController extends AppController
         //登录控制
         $this->Sess->getSessionFromLogin();
         //标题和面包屑
-        $this->set('title_for_layout', '开店方案列表-后台管理');
-        $this->set('crumb', '开店方案列表');
+        $this->set('title_for_layout', '咖啡物料列表-后台管理');
+        $this->set('crumb', '咖啡物料列表');
         //调用分类的Model    
 
         //数据部分
-        $shops = $this->Shop->find('all');
+        $materials = $this->Material->find('all');
         //总记录数
-        $this->set('allcount', count($shops));
+        $this->set('allcount', count($materials));
         //每页条数
         $this->set('number', 10);
         //分页参数
-        $this->set('shops', $shops);
+        $this->set('materials', $materials);
         //将分页写入到模板
-        $this->set('shops', $this->paginate());
+        $this->set('materials', $this->paginate());
         //分类
         $this->set('catedata',$this->getCategoryLists());
         //模板
@@ -56,14 +56,14 @@ class ShopsController extends AppController
         {
             if (!empty($this->data))
             {
-                $this->Shop->create();
-                $addid = $this->Shop->save($this->data);
+                $this->Material->create();
+                $addid = $this->Material->save($this->data);
             }
-            $addid ? ($this->Comm->executeTxt('添加成功', '/shops/index')) : ($this->Comm->executeTxt('添加失败', '/shops/add'));
+            $addid ? ($this->Comm->executeTxt('添加成功', '/materials/index')) : ($this->Comm->executeTxt('添加失败', '/materials/add'));
         }
-        //标题和面包屑 添加方案-后台管理
-        $this->set('title_for_layout', '添加方案-后台管理');
-        $this->set('crumb', '添加资讯');
+        //标题和面包屑 添加咖啡物料-后台管理
+        $this->set('title_for_layout', '咖啡物料列表-后台管理');
+        $this->set('crumb', '咖啡物料列表');
         //分类
         $this->set('catedata',$this->getCategoryLists());
         //模板部分
@@ -82,28 +82,28 @@ class ShopsController extends AppController
         //数据部分
         if (!$id && empty($this->data))
         {   
-            $this->Comm->executeTxt('此方案已经不存在', '/shops/index');
+            $this->Comm->executeTxt('此物料已经不存在', '/materials/index');
         }
         if (empty($this->data))
         {
-            $this->data = $this->Shop->read(null, $id);
+            $this->data = $this->Material->read(null, $id);
         }
         else
         {
             //排除当前id
-            $data['Shop']['title'] = $this->data['Shop']['title'];
-            $data['Shop']['id <>'] = $id;
-            $exists = $this->Shop->find('all', array('conditions' => $data['Shop']));
+            $data['Material']['name'] = $this->data['Material']['name'];
+            $data['Material']['id <>'] = $id;
+            $exists = $this->Material->find('all', array('conditions' => $data['Material']));
             
             if ($exists)
             {
-                $this->Comm->existYes('此方案已经存在', '/shops/edit/'.$id);
+                $this->Comm->existYes('此物料已经存在', '/materials/edit/'.$id);
             }
             else
             {
-                $this->Shop->id = $id;
-                $result = $this->Shop->save($this->data);
-                $result ? ($this->Comm->executeTxt('修改成功', '/shops/index')) : ($this->Comm->executeTxt('修改失败', '/shops/edit'));
+                $this->Material->id = $id;
+                $result = $this->Material->save($this->data);
+                $result ? ($this->Comm->executeTxt('修改成功', '/materials/index')) : ($this->Comm->executeTxt('修改失败', '/materials/edit'));
             }
         }
 
@@ -125,13 +125,13 @@ class ShopsController extends AppController
 
         if ($id)
         {
-            $this->Shop->delete($id);
-            $this->Comm->executeTxt('删除成功', '/shops/index');
+            $this->Material->delete($id);
+            $this->Comm->executeTxt('删除成功', '/materials/index');
             exit;
         }
         else
         {
-            $this->Comm->executeTxt('删除失败', '/shops/index');
+            $this->Comm->executeTxt('删除失败', '/materials/index');
         }
     }
 
@@ -143,11 +143,11 @@ class ShopsController extends AppController
         $data = array();
 
         //调用分类的Model
-        $this->loadModel('Shopcate');
-        $cates = $this->Shopcate->find('all');
+        $this->loadModel('Materialcate');
+        $cates = $this->Materialcate->find('all');
         foreach ($cates as $v)
         {
-            $data[$v['Shopcate']['id']] = $v['Shopcate']['name'];
+            $data[$v['Materialcate']['id']] = $v['Materialcate']['name'];
         }
         return $data;
     }

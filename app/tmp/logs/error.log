@@ -11003,3 +11003,147 @@
 #0 /home/kzrcoffeecnphpzkoznrcckoqf5fpebekconjpbhip/wwwroot/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 /home/kzrcoffeecnphpzkoznrcckoqf5fpebekconjpbhip/wwwroot/index.php(42): require('/home/kzrcoffee...')
 #2 {main}
+2015-04-23 23:27:10 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:27:10 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:27:12 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:27:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 D:\httproot\cakephp\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 D:\httproot\cakephp\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\httproot\cakephp\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 D:\httproot\cakephp\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 D:\httproot\cakephp\lib\Cake\Model\Model.php(3179): Model->setSource('newcates')
+#5 D:\httproot\cakephp\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#6 D:\httproot\cakephp\app\Controller\NewcatesController.php(44): Model->find('all', Array)
+#7 [internal function]: NewcatesController->index()
+#8 D:\httproot\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NewcatesController), Array)
+#9 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewcatesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#13 {main}
+2015-04-23 23:27:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 D:\httproot\cakephp\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 D:\httproot\cakephp\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\httproot\cakephp\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 D:\httproot\cakephp\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 D:\httproot\cakephp\lib\Cake\Model\Model.php(3179): Model->setSource('newcates')
+#5 D:\httproot\cakephp\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#6 D:\httproot\cakephp\app\Controller\NewcatesController.php(44): Model->find('all', Array)
+#7 [internal function]: NewcatesController->index()
+#8 D:\httproot\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(NewcatesController), Array)
+#9 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(NewcatesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#13 {main}
+2015-04-23 23:31:33 Error: [MissingActionException] Action WordsController::edit() could not be found.
+#0 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(WordsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#4 {main}
+2015-04-23 23:36:58 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:37:00 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:37:06 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:37:10 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:37:11 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:37:12 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:45:21 Error: [MissingControllerException] Controller class MaterialcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:46:01 Error: [MissingControllerException] Controller class MaterialcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:47:28 Error: [MissingViewException] View file "D:\httproot\cakephp\app\View\Materialcates\add.ctp" is missing.
+#0 D:\httproot\cakephp\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 D:\httproot\cakephp\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialcatesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#6 {main}
+2015-04-23 23:48:07 Error: [MissingViewException] View file "D:\httproot\cakephp\app\View\Materialcates\index.ctp" is missing.
+#0 D:\httproot\cakephp\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 D:\httproot\cakephp\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 D:\httproot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialcatesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#6 {main}
+2015-04-23 23:55:25 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-23 23:55:32 Error: [MissingControllerException] Controller class MaterialshowController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:08:24 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:08:26 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:16:12 Error: [MissingControllerException] Controller class CooperationcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:16:56 Error: [MissingControllerException] Controller class CooperationcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:16:59 Error: [MissingControllerException] Controller class CooperationcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:17:04 Error: [MissingControllerException] Controller class CooperationcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:18:33 Error: [MissingControllerException] Controller class CooperationcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:18:43 Error: [MissingControllerException] Controller class CooperationcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:19:07 Error: [MissingControllerException] Controller class CooperationcatesController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}
+2015-04-24 00:33:04 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 D:\httproot\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\httproot\cakephp\index.php(42): require('D:\\httproot\\cak...')
+#2 {main}

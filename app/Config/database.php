@@ -63,9 +63,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
     	'persistent' => false,
     	'host' => 'localhost',
-    	'login' => 'kzrcoffeecnphp',
-    	'password' => 'fadm4skc',
-    	'database' => 'kzrcoffeecnphp',
+    	'login' => 'root',
+    	'password' => '',
+    	'database' => 'hxsd-shili',
     	'prefix' => '',
     	//'encoding' => 'utf8',/
 	);

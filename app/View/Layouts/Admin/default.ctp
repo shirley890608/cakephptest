@@ -68,30 +68,44 @@
                 <li class="childUlLi">
                     <a href="" target="menuFrame"> <i class="glyph-icon icon-reorder"></i>在线留言</a>
                     <ul style="display: none;">
-                        <!-- <li><a href="/newcates/index"><i class="glyph-icon icon-chevron-right"></i>分类列表</a></li>
-                        <li><a href="/newcates/add"><i class="glyph-icon icon-chevron-right"></i>添加分类</a></li> -->
+                        <li><a href="/words/index"><i class="glyph-icon icon-chevron-right"></i>在线留言列表</a></li>
+                        
                     </ul>
                 </li>
                 <li class="childUlLi">
                     <a href="" target="menuFrame"> <i class="glyph-icon icon-reorder"></i>咖啡物料</a>
                     <ul style="display: none;">
-                       <!--  <li><a href="#"><i class="glyph-icon icon-chevron-right"></i>咖啡豆</a></li>
-                        <li><a href="#"><i class="glyph-icon icon-chevron-right"></i>咖啡机</a></li> -->
+                        <li><a href="/materialcates/index"><i class="glyph-icon icon-chevron-right"></i>咖啡物料分类</a></li>
+                        <li><a href="/materialcates/add"><i class="glyph-icon icon-chevron-right"></i>添加咖啡物料分类</a></li>
+                        <li><a href="/materials/index"><i class="glyph-icon icon-chevron-right"></i>咖啡物料列表</a></li>
+                        <li><a href="/materials/add"><i class="glyph-icon icon-chevron-right"></i>添加咖啡物料</a></li>
                     </ul>
                 </li>
                
                 <li class="childUlLi">
                     <a href="" target="menuFrame"> <i class="glyph-icon icon-reorder"></i>合作伙伴</a>
                     <ul style="display: none;">
-                        <!-- <li><a href="#"><i class="glyph-icon icon-chevron-right"></i>咖啡豆</a></li>
-                        <li><a href="#"><i class="glyph-icon icon-chevron-right"></i>咖啡机</a></li> -->
+                        <li><a href="/cooperationcates/index"><i class="glyph-icon icon-chevron-right"></i>合作伙伴分类</a></li>
+                        <li><a href="/cooperationcates/add"><i class="glyph-icon icon-chevron-right"></i>添加合作伙伴分类</a></li>
+                        <li><a href="/cooperations/index"><i class="glyph-icon icon-chevron-right"></i>合作伙伴列表</a></li>
+                        <li><a href="/cooperations/add"><i class="glyph-icon icon-chevron-right"></i>添加合作伙伴</a></li>
                     </ul>
                 </li>
                  <li class="childUlLi">
+                    <a href="" target="menuFrame"> <i class="glyph-icon icon-reorder"></i>咖啡设备</a>
+                    <ul style="display: none;">
+                        <li><a href="/productcates/index"><i class="glyph-icon icon-chevron-right"></i>咖啡设备分类</a></li>
+                        <li><a href="/productcates/add"><i class="glyph-icon icon-chevron-right"></i>添加咖啡设备分类</a></li>
+                        <li><a href="/products/index"><i class="glyph-icon icon-chevron-right"></i>咖啡设备列表</a></li>
+                        <li><a href="/products/add"><i class="glyph-icon icon-chevron-right"></i>添加咖啡设备</a></li>
+                    </ul>
+                </li>
+
+                 <li class="childUlLi">
                     <a href="" target="menuFrame"> <i class="glyph-icon icon-reorder"></i>广告管理</a>
                     <ul style="display: none;">
-                        <!-- <li><a href="#"><i class="glyph-icon icon-chevron-right"></i>关于我们</a></li>
-                        <li><a href="#"><i class="glyph-icon icon-chevron-right"></i>公司一角</a></li> -->
+                        <li><a href="/adcates/index"><i class="glyph-icon icon-chevron-right"></i>广告分类</a></li>
+                        <li><a aahref="/ads/index"><i class="glyph-icon icon-chevron-right"></i></a>广告列表</li>
                     </ul>
                 </li>
                 <li class="childUlLi">
